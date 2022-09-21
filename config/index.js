@@ -24,11 +24,11 @@ export const USER_CONFIG = {
     
     /** 节假日 */
     // 下一休息日综合提醒
-    holidaytts: true,
+    holidaytts: false,
     
     /** 每日N句 */
     // 金山每日一句
-    CIBA: true,
+    CIBA: false,
     // 每日一言
     oneTalk: false,
     // 土味情话(彩虹屁)
@@ -38,13 +38,13 @@ export const USER_CONFIG = {
     // 毒鸡汤
     poisonChickenSoup: false,
     // 古诗古文
-    poetry: false,
+    poetry: true,
     
     /** 星座运势 */
     horoscope: false,
     
     /** 生日消息和节日消息 */
-    birthdayMessage: true,
+    birthdayMessage: false,
   },
   
   /** 每日一言 */
@@ -95,12 +95,12 @@ export const USER_CONFIG = {
       ]
     },
     {
-      name: "老婆1",
-      id: "",
-      useTemplateId: "",
-      province: "",
-      city: "",
-      horoscopeDate: '',
+      name: "宝儿",
+      id: "oiCbX5lDVIZxcpTQ3-gGC0_O54lY",
+      useTemplateId: "EkoZj0WPIXfI_jqy6lxNooVI1vnUMf1AAubKhmlIwyc",
+      province: "广西",
+      city: "北流",
+      horoscopeDate: '4-9',
       horoscopeDateType: '',
       openUrl: "https://wangxinleo.cn",
       festivals: [],
